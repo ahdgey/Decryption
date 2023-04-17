@@ -14,3 +14,6 @@ print("-" * 70)
 # Request for users encrypted input and then save it
 input_str = input("\033[0;33m\nKindly type in a encrypted text that I can decrypt?\n")
 output_str = ""
+
+# Put every character and its corresponding value
+for i in range(len(input_str)):
