@@ -17,3 +17,6 @@ output_str = ""
 
 # Put every character and its corresponding value
 for i in range(len(input_str)):
+#   if *, change a
+    if input_str[i] == "*":
+        output_str += "a"
