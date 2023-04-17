@@ -26,3 +26,6 @@ for i in range(len(input_str)):
 #   if #, change i
     elif input_str[i] == "#":
         output_str += "i" 
+#   if +, change o
+    elif input_str[i] == "+":
+        output_str += "o"
