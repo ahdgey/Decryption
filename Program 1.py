@@ -22,4 +22,7 @@ for i in range(len(input_str)):
         output_str += "a"
 #   if &, change e
     elif input_str[i] == "&":
-        output_str += "e"   
+        output_str += "e"  
+#   if #, change i
+    elif input_str[i] == "#":
+        output_str += "i" 
