@@ -20,3 +20,6 @@ for i in range(len(input_str)):
 #   if *, change a
     if input_str[i] == "*":
         output_str += "a"
+#   if &, change e
+    elif input_str[i] == "&":
+        output_str += "e"   
