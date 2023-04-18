@@ -37,3 +37,8 @@ for i in range(len(input_str)):
 
 print("=" * 70)
 
+# Print the output of this program
+print("\033[0;35m\nThe Encrypted Text is: " + input_str)
+print("\033[0;35m\nThe Decrypted Text is: " + output_str)
+print("_" * 70)
+
