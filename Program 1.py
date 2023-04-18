@@ -35,3 +35,5 @@ for i in range(len(input_str)):
     else:
         output_str += input_str[i]
 
+print("=" * 70)
+
