@@ -42,3 +42,6 @@ print("\033[0;35m\nThe Encrypted Text is: " + input_str)
 print("\033[0;35m\nThe Decrypted Text is: " + output_str)
 print("_" * 70)
 
+# End the program
+print("\033[0;31m\nThe program ends here, see you next time!")
+print("~" * 70)
