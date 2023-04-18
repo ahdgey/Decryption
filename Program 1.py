@@ -32,5 +32,6 @@ for i in range(len(input_str)):
 #   if !, change u
     elif input_str[i] == "!":
         output_str += "u"
-
+    else:
+        output_str += input_str[i]
 
